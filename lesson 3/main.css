@@ -1,0 +1,71 @@
+body{
+    background: #efeee7;
+}
+
+.top{
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+.iconify{
+    content: url('https://api.iconify.design/noto-v1/cooking.svg');
+    width: 100px;
+}
+
+.main_name{
+    font-size: 100px;
+    font-weight: bold;
+    color: #ff9900;
+    margin: 0px;
+}
+
+.main_phrase{
+    font-size: 60px;
+    font-style: italic;
+    margin: 10px;
+}
+
+.left_menu{
+    background: #eeb447;
+    border-radius: 20px;
+    max-width: 300px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f1f34;
+    padding: 10px 10px 10px 40px;
+    margin: 10px;
+}
+
+li{
+    padding: 10px;
+}
+
+.carts{
+    min-width: 600px;
+    max-width: 900px;
+    background: whitesmoke;
+    border-radius: 15px;
+    padding: 15px 40px;
+    margin: 10px;
+}
+
+img {
+    display: block;
+    width: 300px;
+    border-radius: 15px;
+    border: whitesmoke solid 2px;
+    justify-content: center;
+}
+
+.dish_name{
+    font-size: 30px;
+    font-weight: bold;
+    color: #535357;
+}
+
+.recipe{
+    color: #535357;
+}
