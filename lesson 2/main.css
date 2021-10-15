@@ -1,0 +1,48 @@
+body{
+    background: #efeee7;
+}
+
+body, html{
+    scroll-behavior: smooth;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: #1c1c64;
+    font-style: italic;
+    text-align: center;
+}
+
+.author{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    color: #4c4c6c;
+    font-style: italic;
+}
+
+p{
+    color: #535357;
+    text-align: justify;
+}
+
+a{
+    color: #535357;
+}
+
+a:hover{
+    color: darkred;
+    font-weight: bold;
+}
+
+ul{
+    color: #535357;
+}
