@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            border: #434343 solid 2px;
+            border-radius: 5px;
+            padding: 5px;
+            min-width: 300px;
+            max-width: 1200px;
+        }
+
+        .bg {
+            background: silver;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #434343;
+        }
+
+        .menu {
+            width: 100%;
+            height: 80px;
+            margin-bottom: 5px;
+        }
+
+        .main {
+            width: 100%;
+            box-sizing: content-box;
+            display: flex;
+            column-gap: 5px;
+        }
+
+        .content {
+            width: 75%;
+            box-sizing: content-box;
+        }
+
+        .aside {
+            width: 25%;
+            justify-items: stretch;
+        }
+
+        .nav {
+            width: 100%;
+            height: 80px;
+            margin-bottom: 5px;
+        }
+
+        .posts {
+            display: flex;
+            column-gap: 5px;
+            height: 80px;
+        }
+
+        .block {
+            width: 33%;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu bg">A</div>
+    <div class="main">
+        <div class="content">
+            <div class="nav bg">B</div>
+            <div class="posts">
+                <div class="block bg">C</div>
+                <div class="block bg">D</div>
+                <div class="block bg">E</div>
+            </div>
+        </div>
+        <div class="aside bg">F</div>
+    </div>
+</body>
+</html>
