@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main_container {
+            min-width: 300px;
+            max-width: 1200px;
+            box-sizing: border-box;
+        }
+
+        .text {
+            font-size: larger;
+            color: whitesmoke;
+            text-align: center;
+            padding: 10px;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        .header {
+            width: 100%;
+            height: 80px;
+            background: #14d2cc;
+            margin-bottom: 5px;
+        }
+
+        .content_box {
+            display: flex;
+            width: 100%;
+            height: 600px;
+            column-gap: 5px;
+            box-sizing: border-box;
+            margin-bottom: 5px;
+        }
+
+        .left_boxes {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            width: 40%;
+        }
+
+        .right_boxes {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            width: 60%;
+        }
+
+        .hero_box {
+            background: #9a75d9;
+            height: 40%;
+        }
+
+        .sidebar_box {
+            background: lightgreen;
+            height: 60%;
+        }
+
+        .main_content {
+            background: orange;
+            height: 80%;
+        }
+
+        .extra_contant {
+            background: gray;
+            height: 20%;
+        }
+
+        .related {
+            display: flex;
+            column-gap: 5px;
+            margin-bottom: 5px;
+            height: 200px;
+        }
+        .rel_images {
+            width: 70%;
+            background: forestgreen;
+        }
+
+        .rel_posts {
+            width: 30%;
+            background: lightpink;
+        }
+
+        .footer {
+            background: darkorange;
+            width: 100%;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+<div class="main_container text">
+    <div class="header text">Header</div>
+    <div class="content_box">
+        <div class="left_boxes">
+            <div class="hero_box text">Hero</div>
+            <div class="sidebar_box text">Sidebar</div>
+        </div>
+        <div class="right_boxes">
+            <div class="main_content text">Main Content
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eaque ex numquam possimus quia
+                    repellendus.</p>
+            </div>
+            <div class="extra_contant text">Extra Contant</div>
+        </div>
+    </div>
+    <div class="related">
+        <div class="rel_images text">Related Images</div>
+        <div class="rel_posts text">Related Posts</div>
+    </div>
+    <div class="footer text">Footer</div>
+</div>
+
+</body>
+</html>
