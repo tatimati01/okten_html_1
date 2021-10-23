@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            min-width: 300px;
+            max-width: 1200px;
+            box-sizing: content-box;
+        }
+
+        .h60 {
+            height: 60px;
+        }
+
+        .w100p {
+            width: 100%;
+        }
+        .header {
+            background: #1772dc;
+        }
+
+        .nav {
+            background: #0450a8;
+        }
+
+        .content{
+            display: flex;
+            height: 300px;
+        }
+
+        .main {
+            width: 75%;
+            background: #19bec4;
+        }
+
+        .aside {
+            width: 25%;
+            background: #5454ec;
+        }
+
+        .footer {
+            background: #6ecdef;
+        }
+
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: whitesmoke;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="header text h60 w100p">Header</div>
+    <div class="nav text h60 w100p">Nav</div>
+    <div class="content w100p">
+        <div class="main text">Main</div>
+        <div class="aside text">Aside</div>
+    </div>
+    <div class="footer text h60 w100p">Footer</div>
+</div>
+
+</body>
+</html>

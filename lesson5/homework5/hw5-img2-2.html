@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            min-width: 300px;
+            max-width: 1200px;
+            box-sizing: content-box;
+        }
+
+        .h150 {
+            height: 150px;
+        }
+
+        .top {
+            background: #5454ec;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: whitesmoke;
+            font-size: xx-large;
+        }
+
+        .content {
+            display: flex;
+            column-gap: 10px;
+        }
+
+        .square {
+            background: #1c1c64;
+            flex: 1 1 auto;
+            font-size: large;
+        }
+
+        .contact {
+            background: #5454ec;
+            width: 100%;
+            height: 200px;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="top text h150"><p>Widgets</p></div>
+    <div class="content">
+        <div class="square text h150">
+            <p>Big Widgets</p>
+        </div>
+        <div class="square text h150">
+            <p>Bigger Widgets</p>
+        </div>
+        <div class="square text h150">
+            <p>Huge Widgets</p>
+        </div>
+    </div>
+    <div class="contact text"><p>Contact</p></div>
+</div>
+
+</body>
+</html>
