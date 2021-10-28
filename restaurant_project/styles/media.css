@@ -1,0 +1,62 @@
+@media screen and (max-width: 400px) {
+    .header-top__menu {
+        display: none;
+    }
+
+    .header-top__logo {
+        width: 40px;
+    }
+
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header-top {
+        padding-top: 20px;
+
+    }
+
+    .nav__btn-mobile {
+        display: flex;
+    }
+
+    .header-main {
+        margin: 203px 10px 0;
+        align-items: center;
+    }
+
+    .header-main__title {
+        text-align: center;
+    }
+
+    .header-main__title h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .header-main__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header-main__title p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .header-main__title p::before,
+    .header-main__title p::after {
+        display: none;
+    }
+
+    .benefits {
+        flex-wrap: wrap;
+        row-gap: 14px;
+    }
+
+    .benefits__square {
+        width: 290px;
+    }
+
+}

@@ -1,0 +1,252 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+    background-color: #E5E5E5;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    width: 100%;
+    height: 800px;
+    background: url("../images/bg.png") no-repeat center/cover;
+}
+
+.header-top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top__menu {
+    display: flex;
+}
+
+.nav-top {
+    display: flex;
+    column-gap: 23px;
+}
+
+.nav-top__item img {
+    width: 20px;
+}
+
+.nav-top__item a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.menu_navigation {
+    border-right: #FFFFFF solid 1px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    height: 51px;
+}
+
+.menu_contacts__phone a {
+    /*font-family: Open Sans;*/
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu_contacts__phone p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 160px;
+    margin-right: 50px;
+}
+
+.menu_contacts {
+    display: flex;
+    padding-left: 34px;
+}
+
+.nav__btn-mobile {
+    display: none;
+    width: 31px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.nav__btn-mobile div {
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+}
+
+.header-main {
+    margin-left: 175px;
+    margin-top: 203px;
+    align-items: center;
+}
+
+.header_button, .header-main__button {
+    background: #FF7400;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 14px 19px;
+    border: none;
+    cursor: pointer;
+}
+
+.header-main__button {
+    width: 137px;
+    padding: 14px 28px;
+    margin-top: 35px;
+}
+
+.header-main__title {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    color: #D67E35;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-main__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+}
+
+.header-main__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header-main__title p {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.header-main__title p::before,
+.header-main__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+}
+
+.header-main__title p::before {
+    margin-right: 10px;
+}
+
+.header-main__title p::after {
+    margin-left: 10px;
+}
+
+.benefits__square {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits__square img {
+    width: 126px;
+    height: 104px;
+}
+
+.benefits__square p {
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.black_text {
+    color: #2C2C2C;
+}
+
+.gold_text {
+    color: #BC9060;
+}
+
+.gray_text {
+    color: #656363;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.benefits {
+    display: flex;
+    column-gap: 31px;
+    justify-content: center;
+    position: relative;
+    bottom: 107px;
+}
