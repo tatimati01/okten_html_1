@@ -210,13 +210,22 @@ button {
 
 .order-block {
     background: url("../images/bg2.png") no-repeat center/cover;
-    height: 360px;
+    /*height: 360px;*/
     column-gap: 330px;
 }
+
+.order-block__text {
+    margin: 80px 0 100px;
+}
+
 .order-block__text-title {
     font-size: 52px;
     line-height: 60px;
 }
+
+/*.order-block__button {*/
+/*    */
+/*}*/
 
 .order-block__text-descript {
     font-family: Open Sans;
@@ -292,6 +301,7 @@ button {
     background: #D67E34;
     width: 124px;
     height: 36px;
+    position: absolute;
 }
 
 .menu__card img {
