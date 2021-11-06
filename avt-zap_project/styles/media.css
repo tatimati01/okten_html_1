@@ -1,0 +1,107 @@
+@media screen and (max-width: 320px){
+    .mobile_navbar {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+    .container-fluid>button {
+        display: none;
+    }
+
+    .container-fluid img {
+        display: none;
+    }
+
+    .navbar-brand,
+    .dropdown  button {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .btn-group {
+        display: none;
+    }
+
+    .dropdown_mobile-more {
+        display: flex;
+    }
+
+    .dropdown-menu {
+        width: 180px;
+        box-sizing: content-box;
+    }
+
+    .dropdown-menu label,
+    .dropdown-menu a {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .dropdown-menu input {
+        width: 140px;
+    }
+
+    .header-main__top {
+        flex-wrap: wrap;
+    }
+    .logo-image {
+        width: 36.78px;
+        height: 40.2px;
+    }
+
+    .logo-text h2 {
+        width: 54.22px;
+        height: 9.66px;
+    }
+
+    .logo-text p {
+        width: 91.4px;
+        height: 13.96px;
+    }
+
+    .main-top__time {
+        display: none;
+    }
+
+    .main-top__address {
+        display: none;
+    }
+
+    .tel-text p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .tel-form-dd button>p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .main-top__whatsapp {
+        width: 132px;
+        height: 18px;
+    }
+
+    .main-bottom__catalog-mobile {
+        display: flex;
+        width: 34px;
+        height: 34px;
+    }
+
+    .main-bottom__search input {
+        width: 203px;
+        height: 34px;
+    }
+
+    .input_catalog-mobile {
+        display: flex;
+    }
+}
