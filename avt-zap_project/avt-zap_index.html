@@ -25,7 +25,7 @@
             <img class="mark-image" src="./img/placeholder1.png" alt="placeholder">
             <a class="navbar-brand" href="#">Ваш город:</a>
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle no-bg-dropdown" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-secondary dropdown-toggle no-bg-dropdown" type="button" id="dropdownMenuButtonCity" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="./img/flame.svg" alt="flame">
                     Москва
                     <img src="./img/flame.svg" alt="flame">
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="btn-group">
-                <button class="btn btn-secondary dropdown-toggle no-bg-dropdown" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-secondary dropdown-toggle no-bg-dropdown" type="button" id="dropdownMenuButtonInfo" data-bs-toggle="dropdown" aria-expanded="false">
                     Информация
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -122,7 +122,7 @@
                         для АКПП</p>
                 </div>
             </div>
-            <div class="main-top__time d-flex">
+            <div class="main-top__time d-xs-none d-sm-flex">
                 <div class="time-image">
                     <img src="./img/time1.png" alt="time">
                 </div>
@@ -131,7 +131,7 @@
                         сб. - 10:00-15:00</p>
                 </div>
             </div>
-            <div class="main-top__address d-flex">
+            <div class="main-top__address d-xs-none d-sm-flex">
                 <div class="address-image">
                     <img src="./img/placeholder-dark.png" alt="placeholder-dark">
                 </div>
@@ -150,20 +150,20 @@
                     <p>+7 383 291 92 86</p>
                     <div class="tel-form">
                         <div class="dropdown tel-form-dd">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenuButton2"
+                            <button class="btn btn-secondary" type="button" id="dropdownMenuButtonTel"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                 <p>форма обратной связи</p>
                             </button>
                             <div class="dropdown-menu callback-form">
                                 <form class="px-4 py-3">
                                     <div class="mb-3">
-                                        <label for="exampleDropdownFormCallback" class="form-label">Заказать
+                                        <label for="FormCallback" class="form-label">Заказать
                                             звонок</label>
-                                        <input type="text" class="form-control" id="exampleDropdownFormCallback"
+                                        <input type="text" class="form-control" id="FormCallback"
                                                placeholder="Ваше имя">
                                     </div>
                                     <div class="mb-3">
-                                        <input type="tel" class="form-control" id="exampleDropdownFormCallback"
+                                        <input type="tel" class="form-control" id="FormCallback"
                                                placeholder="Номер телефона">
                                     </div>
                                     <button type="button" class="btn btn-primary">Заказать звонок</button>
@@ -179,16 +179,17 @@
                 <button type="button" class="btn btn-primary"><img src="./img/catalog-btn.png" alt="catalog-btn">Каталог
                 </button>
             </div>
-            <div class="main-bottom__catalog-mobile d-none">
+            <div class="main-bottom__catalog-mobile d-sm-none">
                 <button type="button" class="btn btn-primary"><img src="./img/catalog-btn.png" alt="catalog-btn">
                 </button>
             </div>
             <div class="main-bottom__search">
-                <div class="input-group input-group-lg search-group">
+                <div class="input-group input-group-lg search-group d-flex">
                     <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Поиск по наименованию или артикулу">
                     <span class="input-group-text btn-primary" id="inputGroup-sizing-lg">Найти</span>
-                    <span class="input_catalog-mobile input-group-text btn-primary d-none" id="inputGroup-sizing-lg">
-                        <img src="./img/search%20(2)%201.png" alt="search"></span>
+                    <span class="input_catalog-mobile btn-primary d-sm-none" id="inputGroup-sizing-lg">
+                        <img src="./img/search%20(2)%201.png" alt="search">
+                    </span>
                 </div>
             </div>
             <div class="main-bottom__nav">
@@ -227,9 +228,7 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="slide1-item d-block w-100">
-                                <img src="./img/slider-big.png" class="d-block w-100" alt="slider big">
-                            </div>
+                            <img src="./img/slider-big.png" class="d-block w-100" alt="slider big">
                         </div>
                         <div class="carousel-item">
                             <img src="./img/slider-big.png" class="d-block w-100" alt="slider big">
@@ -336,7 +335,7 @@
             </div>
         </div>
         <div class="cards-box__wrapper">
-            <div class="card-box__buttons-top d-flex">
+            <div class="card-box__buttons-top d-flex flex-sm-row flex-xs-column">
                 <button type="button" class="btn btn-primary">Подборки товаров</button>
                 <button type="button" class="btn btn-primary">Акции</button>
                 <button type="button" class="btn btn-primary">Сейчас покупают</button>
@@ -367,6 +366,7 @@
                     </div>
                 </div>
                 <div class="card-goods__item">
+                    <div class="sale40"><img src="./img/sale40.png" alt="sale"></div>
                     <div class="card-goods__image">
                         <img src="./img/card2.png" class="card-img-top" alt="card2">
                     </div>
@@ -465,6 +465,7 @@
                     </div>
                 </div>
                 <div class="card-goods__item">
+                    <div class="sale40"><img src="./img/sale40.png" alt="sale"></div>
                     <div class="card-goods__image">
                         <img src="./img/card2.png" class="card-img-top" alt="card2">
                     </div>

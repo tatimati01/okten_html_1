@@ -185,12 +185,6 @@ h2 {
     box-sizing: border-box;
 }
 
-
-.slide1-item {
-    width: 1008px;
-    height: 390px;
-}
-
 .slider__card-body {
     width: 336px;
     height: 190px;
@@ -207,7 +201,7 @@ h2 {
 }
 
 .card-description {
-   margin-left: 15px;
+    margin-left: 15px;
 }
 
 .card-text {
@@ -239,7 +233,7 @@ h2 {
 }
 
 .slider-box__card {
-    row-gap: 10px;
+    gap: 10px;
     margin-left: 10px;
 }
 
@@ -256,11 +250,11 @@ h2 {
     border-radius: 6px;
 }
 
-.carousel-inner {
+.slider-box__products .carousel-inner {
     column-gap: 30px;
 }
 
-.item__text p {
+.c-item__text p {
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -305,6 +299,10 @@ h2 {
 
 .card-goods__price a {
     margin-left: 4px;
+}
+
+.sale40 {
+    position: absolute;
 }
 
 .card-goods__item h5 {
